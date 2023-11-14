@@ -22,11 +22,11 @@ const MoviePage = async( {params}) => {
         <h2 className={styles.movie_title}> BingeWatch \ <span> {detailData.type} </span> </h2>
         <div className={styles.card_section}>
             <div>
-            <Image src={detailData.backgroundImage.url} alt={detailData.title} width={600} height={300}/>
+            <img src={detailData.backgroundImage.url} alt={detailData.title} width={600} height={300}/>
             </div>
         </div>
         <div>
-            <h1>{detailData.title}</h1>
+            <h1 id="movieTitle">{detailData.title}</h1>
             <p>
                 {detailData.synopsis}
             </p>

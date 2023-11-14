@@ -7,7 +7,7 @@ const MovieCard = (curEle) => {
     const {id, type, title, synopsis} = curEle.jawSummary;
   return (
     <>
-      <div className={styles.card}>
+      <div className={styles.card} key={id}>
         <div className={styles.card_image}>
             <Image src={curEle.jawSummary.backgroundImage.url} alt={title} width={250} height={200}/>
         </div>

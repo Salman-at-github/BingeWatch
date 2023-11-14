@@ -111,3 +111,14 @@ button:hover {
 .mainlogo{
     border-radius: 50%;
 }
+.contactBody{
+    padding-top: 10rem;
+}
+/* .mainBody{
+    background: linear-gradient(-45deg, #7ce04a, #08b6eb, #d042e6);
+} */
+
+#movieTitle{
+    font-size: 3.5rem;
+    margin-top: 2rem;
+}

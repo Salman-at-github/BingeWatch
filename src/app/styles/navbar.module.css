@@ -7,9 +7,14 @@
     border: none;
     outline: none;
     /*background-color: yellow;*/
-    /*background: linear-gradient(-45deg, #a8e48a, #1eb6d9, #f2d3f7);*/
+    background: linear-gradient(-45deg, #7ce04a, #08b6eb, #d042e6);
     background-size: 400% 400%;
+    /* background-color: rgb(255, 217, 0, 0.5); */
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 
@@ -51,7 +56,7 @@
     transform: translateY(-50%);
     width: 100%;
     height: .5rem;
-    background-color: #e50914;
+    background-color: #070707;
     left: -100%;
 }
 
@@ -67,11 +72,14 @@
     50% {
         left: 0;
         height: .5rem;
+        border-radius: 1rem;
+
     }
     100% {
         left: 0;
         height: 100%;
         z-index: -1;
+        border-radius: 4rem;
     }
 }
 
